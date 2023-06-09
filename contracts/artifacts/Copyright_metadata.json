@@ -1,0 +1,256 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_titular",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_obra",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_fechaCreacion",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_registro",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "_licencia",
+						"type": "string"
+					}
+				],
+				"name": "addCopy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "status",
+						"type": "bool"
+					}
+				],
+				"name": "changeRegister",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "copy",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "autor",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "titular",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "obra",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fechaCreacion",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fechaPublicacion",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "registro",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "licencia",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "copys",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "autor",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "titular",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "obra",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fechaCreacion",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fechaPublicacion",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "registro",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "licencia",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "getCopy",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieveCont",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Copyright.sol": "Copyright"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Copyright.sol": {
+			"keccak256": "0xc6ffd3adfb2ca8dc07171cc1f9e7854da5d36b070dea77264aa63332b8f33c16",
+			"urls": [
+				"bzz-raw://fed3fdeebaf804ebb0589599e7215a144bf2d6c4de7b791cbcacba55cbfa95cb",
+				"dweb:/ipfs/QmQHhVBvMoETiEipCpViCoCeQCRV1ULjymoWDnuVQuPFQS"
+			]
+		}
+	},
+	"version": 1
+}

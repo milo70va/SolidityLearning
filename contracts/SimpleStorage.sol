@@ -1,11 +1,12 @@
 // SPDX-License_Identifier: MIT
 
-pragma solidity ^0.6.0;
+pragma solidity ^0.8.0;
 
 contract SimpleStorage {
 
     //Esto se inicializa en 0
     uint256 favoriteNumber;
+    bool favoriteBool;
 
     struct People {
         uint256 favoriteNumber;

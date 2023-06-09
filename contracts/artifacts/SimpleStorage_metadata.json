@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.6+commit.6c089d02"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -94,17 +94,21 @@
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"contracts/SimpleStorage.sol": "SimpleStorage"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -117,10 +121,10 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0xab2cabd27c44d8c0719a69316bd1b3427bce6be55b1d0652466ceebd8ad7d161",
+			"keccak256": "0x6dacfbb350b24f4d166d037a22819cd59be58a37849b822d0d1b706b45535ea2",
 			"urls": [
-				"bzz-raw://f1274e954e3ebfde8330ab2d2712c48554a7026a304d46f148661ab19ba285aa",
-				"dweb:/ipfs/QmVRd6iNGGGYunLZKcs1CZeWFHKJFzEgcvjW2qKDr2EebS"
+				"bzz-raw://a82c97b10e6e7dcf33fc5329d5845e376d06b380b86a66e0538b94b55ee508bd",
+				"dweb:/ipfs/QmUWhodvZxyzdYUN9mDsypgRmqvrepsASrjGABJRaHfsfA"
 			]
 		}
 	},
